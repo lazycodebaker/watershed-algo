@@ -1,7 +1,3 @@
-Okay, here's a description of the Watershed algorithm, how it's implemented in your C++ code, and an analysis of the provided output image.
-
----
-
 **Algorithm Description: The Watershed Algorithm**
 
 The Watershed algorithm is a classic image segmentation technique inspired by hydrology. Imagine the grayscale image as a topographic landscape, where pixel intensity values represent height:
