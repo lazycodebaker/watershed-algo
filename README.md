@@ -84,6 +84,4 @@ This is a common characteristic of the Watershed algorithm when applied to objec
 
 1.  **Tune Parameters:** Experiment with `dist_transform_threshold_ratio`, morphological kernel sizes (`morph_open_kernel_size`, `morph_dilate_kernel_size`, `sure_fg_erode_kernel_size`), and adaptive thresholding parameters. For instance, a higher `dist_transform_threshold_ratio` or more aggressive erosion of foreground markers might lead to fewer, more robust markers within the tumor.
 2.  **More Advanced Marker Generation:** Techniques like H-maxima transform on the distance map (as explored in previous Python versions) can produce more robust markers that are less sensitive to minor local variations.
-3.  **Interactive Marker Placement:** Allowing a user to manually place a few "sure foreground" markers within the tumor and "sure background" markers outside would likely yield a much better segmentation of the specific target.
-
-In summary, the code works as intended for a Watershed implementation, but the output highlights the algorithm's sensitivity and the necessity of careful parameter tuning or more sophisticated marker strategies for optimal results on complex medical images.
+3.  **Interactive Marker Placement:** Allowing a user to manually place a few "sure foreground" markers within the tumor and "sure background" markers outside would likely yield a much better segmentation of the specific target. 
